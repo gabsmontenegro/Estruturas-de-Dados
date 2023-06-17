@@ -29,18 +29,24 @@ int listaVazia(tLista l);
 tNo *busca(tLista lista, int d);
 void insereInicio(tLista *lista, int novoDado);
 tLista *remNo(tLista *l, int d);
+int listasIguais(tLista *l1, tLista *l2);
 
 /* Funcao Principal*/
 int main()
 {
-
+    
     return 0;
 }
 
 
 
 /* Definicao de funcoes */
+int listasIguais(tLista *l1, tLista *l2)
+{
+    
+    return 0;
 
+}
 void criaLista(tLista *l)
 {
     l->tam = 0;
